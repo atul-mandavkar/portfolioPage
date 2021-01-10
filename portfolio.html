@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My portfolio</title>
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <a class="nav-header" href="#welcome-section">About</a>
+      <a class="nav-header" href="#projects">Work</a>
+      <a class="nav-header" href="#contacts-section">Contacts</a>
+    </nav>
+  </header>
+  <main>
+    <article id="welcome-section">
+      <div id="welcome-div">
+        <h1 id="welcome-heading">
+          Hey, I am  ATUL MANDAVKAR
+        </h1>
+        <p id="welcome-paragraph">
+          A Junior web developer
+        </p>
+      </div>
+    </article>
+    <article id="projects">
+      <div id="projects-div">
+        <h2 id="projects-heading">
+          These are few of my projects
+        </h2>
+        <nav id="projects-nav">
+          <a class="project-tile" href="https://codepen.io/atulmandavkar/full/KKgzNXZ" target="_blank">
+            <figure>
+              <img src="https://assets.codepen.io/498391/internal/screenshots/pens/vLozoV.default.png?fit=cover&format=auto&ha=false&height=720&quality=75&v=2&version=1456302494&width=1279" alt="Tribute page project" class="projects-img">
+              <figcaption>Tribute page</figcaption>
+            </figure></a>
+           <a class="project-tile" href="https://codepen.io/atulmandavkar/full/xxEOZNW" target="_blank">
+             <figure>
+               <img src="https://assets.codepen.io/260521/internal/screenshots/pens/VPaoNP.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1601011977&width=960" alt="Survey form project" class="projects-img">
+               <figcaption>Survey form</figcaption>
+             </figure></a>
+           <a class="project-tile" href="https://codepen.io/atulmandavkar/full/NWRdwBp" target="_blank">
+             <figure>
+               <img src="https://res.cloudinary.com/devpost/image/fetch/s--hUm1VI9k--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://user-images.githubusercontent.com/34116562/41982003-f3b18aba-7a47-11e8-82a5-53fe19bd5901.png" alt="Landing page project" class="projects-img">
+               <figcaption>Landing page</figcaption>
+             </figure></a>
+          <a class="project-tile" href="https://codepen.io/atulmandavkar/full/rNMwwjL" target="_blank">
+             <figure>
+               <img src="https://i.imgur.com/ydrTbgP.png" alt="Technical documentation page project" class="projects-img">
+               <figcaption>Technical documentation</figcaption>
+             </figure></a>
+          <a class="project-tile" href="https://codepen.io/atulmandavkar/full/bGwRzvv" target="_blank">
+             <figure>
+               <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--u6kXjDJG--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/43dfl2izx4ajdso1dk23.png" alt="Personal portfolio webpage project" class="projects-img">
+               <figcaption>Personal portfolio webpage</figcaption>
+             </figure>
+    </a>
+        </nav>
+      </div>
+    </article>
+    <article id="contacts-section">
+      <div id="contacts-heading">
+        <h2 id="contacts-h1">Let's work together...</h2>
+      <h6 id="contacts=h6">How do you take your coffee?</h6>
+      </div>
+      <div id="contacts=link">
+        <nav id="contacts-nav">
+          <a id="profile-link" class="contacts-anchor" target="_blank" href="https://codepen.io/atulmandavkar" title="code-pen-page">
+              <img class="contacts-img" src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-32-512.png" width="50px" height="50px">code pen</a>
+          <a id="profile-link2" class="contacts-anchor" target="_blank" href="mailto: mandavkar007atul@gmail.com" title="mail-box">
+            <img class="contacts-img" width="50px" height="50px" src="https://www.freeiconspng.com/thumbs/email-icon/email-icon--clipart-best-22.png">gmail
+          </a>
+          <a id="profile-link3" class="contacts-anchor" target="_blank" href="tel: +919653437238" title="contact-number">
+            <img class="contacts-img" width="50px" height="50px" src="https://i.pinimg.com/originals/20/27/3c/20273cfda041b47e89e057a4c2296928.png">mobile phone
+          </a>
+        </nav>
+      </div>
+    </article>
+  </main>
+  <footer>
+    <hr/>
+    created for free code
+  </footer>
+
+  <style>
+    header{
+      position: fixed;
+      width: 100vw;
+      height: auto;
+      top: 0px;
+      z-index: 1;
+      background-color: red;
+    }
+    main{
+      position: relative;
+      width: 100vw;
+      height: auto;
+      top:  40px;
+      color: white;
+    }
+    footer{
+      position: relative;
+      width: 100vw;
+      height: auto;
+      background-color: rgba(0,0,0,0.7);
+      color: orange;
+      text-align: center;
+      font-size: 20px;
+    }
+    #navbar{
+      width: 100vw;
+      height: auto;
+      float: right;
+      clear: right;
+      padding: 20px;
+      text-align: right;
+    }
+    .nav-header{
+      font-size: 30px;
+      font-weight: bold;
+      padding-right: 50px;
+      text-decoration: none;/* for remove underline in anchor tag */
+      color: white;
+    }
+    #welcome-section{
+      width: 100vw;
+      height: 100vh;
+      text-align: center;
+      background-color: rgba(0,0,0,0.7);
+      display: flex;
+      flex-derection: column;
+/* To use block at center and middle use flex display and align-items and justify-content */
+      align-items: center;
+      justify-content: center;
+    }
+    #welcome-div{
+      width: 100%;
+      height: auto;
+      position: absolute;
+    }
+    #welcome-heading{
+      font-size: 40px;
+      font-weight: bold;
+    }
+    #welcome-paragraph{
+      font-size: 28px;
+      color: orange;
+    }
+    #projects{
+      background-color: brown;
+      position: relative;
+      top: -40px;
+      width: 100vw;
+      height: auto;
+      text-align: center;
+      font-size: 30px;
+    }
+    #projects-heading{
+      padding-top: 50px;
+      text-decoration: underline;
+    }
+    #projects-nav{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+    }
+    .project-tile{
+      flex-basis: 33.33%;
+      height: auto;
+      margin: auto;
+      text-align: center;
+      text-decoration-line: none;
+    }
+    .projects-img{
+      width: 100%;
+      height: 250px;
+      margin: 20px 20px 0 20px;
+    }
+    figcaption{
+      background-color: grey;
+      color: white;
+      width: 100%;
+      height: auto;
+      line-height: 40px;
+      font-size: 30px;
+      margin: -5px 20px;
+    }
+    #contacts-section{
+      background-color: rgba(0,0,0,0.7);
+      position: relative;
+      top: -40px;
+      width: 100vw;
+      height: auto;
+      text-align: center;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+    }
+    #contacts-heading{
+      font-size: xx-large;
+      position: relative;
+      top: 50px;
+    }
+    #contacts-h1{
+      margin-bottom: -40px;
+    }
+    #contacts-h6{
+      margin-bottom: 2px; 
+    }
+    #contacts-nav{
+      font-size: 30px;
+      padding-top: 20px;
+    }
+    .contacts-anchor{
+      width: 200px;
+      height: 100px;
+      padding: 20px;
+      color: white;
+      text-decoration: none;
+      border: 1px solid blue;
+    }
+    .contacts-img{
+      vertical-align: middle;
+    }
+    @media (max-width: 600px){
+      .nav-header{ padding-right: 10px; }
+      #projects-nav{ flex-direction: column; }
+      #contacts-nav{ display: flex;
+      flex-direction: row;}
+    }
+  </style>
+</body>
+</html>
